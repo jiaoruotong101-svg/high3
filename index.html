@@ -140,7 +140,7 @@
 
   .game-header {
     width:100%; max-width:440px;
-    padding:16px 20px 8px;
+    padding:40px 20px 8px;
     display:flex; align-items:center; justify-content:space-between;
     flex-shrink:0;
   }
@@ -2020,7 +2020,6 @@ function submitToCredamo() {
     onCredamoEndTrialFinish(csvString);
   } else {
     console.warn('Credamo 环境未就绪，模拟提交数据：', csvString);
-    alert('已成功生成待提交数据,实际使用时请在Credamo平台中运行。');
   }
 }
 
